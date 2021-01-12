@@ -7,6 +7,8 @@ h1{
     font-family: 'Proza Libre', sans-serif;
 }
 .lista{
+    background-color: white;
+    position: fixed;
     padding: .5em;
     display: flex;
     list-style: none;
@@ -17,6 +19,7 @@ h1{
     font-size: 20px;
     display: flex;
     padding: .5em;
+    text-decoration: none;
     text-decoration-style: none;
 }
 .lista li a:hover{
