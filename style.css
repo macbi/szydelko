@@ -1,0 +1,63 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+} 
+
+h1{
+    color: green;
+    font-family: 'Proza Libre', sans-serif;
+}
+.lista{
+    padding: .5em;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.lista li a{
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    padding: .5em;
+    text-decoration-style: none;
+}
+.lista li a:hover{
+    color: green;
+    font-size: 20px;
+}
+
+.dane{
+    padding: .5em;
+    display: flex;
+}
+
+.dane.el{
+    display: flex;
+    padding: .5em;
+    align-content: center;
+}
+figcaption{
+    font-weight: bold;
+}
+.symbole.lista{
+    padding: .5em;
+    display: flex;
+    align-content: center;
+}
+
+.symbole{
+    display: inline-block;
+    padding: .5em;
+    text-align: center;
+    
+}
+p{
+    margin: 10px;
+    text-align: justify;
+}
+table{
+    table-layout: auto;
+    justify-self: center;
+    text-justify: distribute;
+}
+.popular-links{
+    text-align: center;
+}
