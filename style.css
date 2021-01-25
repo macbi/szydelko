@@ -4,7 +4,7 @@ body{
 } 
 
 h1{
-    color: green;
+    color: rgb(128, 0, 122);
     font-family: 'Proza Libre', sans-serif;
 }
 
@@ -83,7 +83,7 @@ table{
 }
 
 .origamihd{
-    height: 1000px;
+    height: 500px;
     width: 100%
 }
 
@@ -92,7 +92,54 @@ table{
     left: 90px;
     top: 300px;
     color: rgb(255, 255, 255);
+    font-family: 'Proza Libre', sans-serif;
     font-size: 200px;
     font-style: italic;
     -webkit-text-stroke: 4px  rgb(120, 2, 136);
+}
+form, input, select, textarea {
+    margin:0; 
+    padding:0; 
+    color:#000000;
+}
+div.box {
+    margin:0 auto;
+    width:500px;
+    background:rgb(235, 206, 230);
+    position:relative;
+    top:50px;
+    border:1px solid #d1cfcf;
+}
+div.box .button	{
+    margin:0 0 10px 0;
+    padding:4px 7px;
+    background:rgb(235, 206, 230);
+    border:0px;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top:10px;
+    left: 170px;
+    width:100px;
+    border-bottom: 1px double #707070;
+    border-top: 1px double #707070;
+    border-left:1px double #a5a5a5;
+    border-right:1px double #a5a5a5;
+}
+div.box .button:hover{
+    background: rgb(120, 2, 136);
+    font-size: 12px;
+}
+div.box label {
+    width:100%;
+    display: block;
+    background:rgb(235, 206, 230);
+    padding:5px 0px 5px 0px;
+}
+div.box label span {
+    display: block;
+    float:left;
+    width:170px;
+    text-align:right;
+    padding:5px 20px 0 0;
 }
