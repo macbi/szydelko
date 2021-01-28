@@ -190,3 +190,7 @@ div.box label span {
     text-align:right;
     padding:5px 20px 0 0;
 }
+.tabelka{
+    margin: 0,auto;
+    position: relative;
+}
