@@ -213,6 +213,11 @@ div.box label span {
     padding:5px 20px 0 0;
 }
 
+.tabelka{
+    display: flex;
+    justify-content: center;
+}
+
 table.tabelka{
     margin: 0,auto;
     position: relative;
@@ -222,14 +227,29 @@ table.tabelka{
     margin-right: auto;
 }
 
-.tabelka img:hover{
-
+.kursyobrazek{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
+
+img.kursyobrazek:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 .kurs{
     width: 80%;
     position: relative;
     display: flex;
     border: 5px color="grey";
+    border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.origamiwarsztatnapis{
+    margin-left: 8px;
+    margin-top: 100px
 }

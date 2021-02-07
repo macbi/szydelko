@@ -1,26 +1,26 @@
-var ObjPeople = [
+var objPeople = [
     {
-    Username: "Maciej",
-    password: "qwerty"
-},
-{
-    Username: "Adam",
-    password: "asdf"
-}
+        username: "Maciej",
+        password: "qwerty"
+    },
+    {
+        username: "Adam",
+        password: "asdf"
+    }
 ]
 
 function getInfo(){
-    var login = document.getElementById("Username").Value;
+    var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    for(var i = 0; i < ObjPeople.lenght; i++){
-        if(Login == ObjPeople[i].login
-            && password == ObjPeople[i].password){
-                alert(login + " jest zalogowany");
-                console.log(login + " jest zalogowany");
+    for(var i = 0; i < objPeople.length; i++){
+        if(username == objPeople[i].username
+            && password == objPeople[i].password){
+                alert(username + " jest zalogowany!");
+                console.log(username + " jest zalogowany!")
                 return;
             }
     }
-    alert("Nieprawidłowy użytkownik lub hasło");
-    console.log("Nieprawidłowy użytkownik lub hasło");
+    alert("Niepoprawidłowy użytkownik lub hasło");
+    console.log("Niepoprawidłowy użytkownik lub hasło");
 }
