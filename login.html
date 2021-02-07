@@ -9,6 +9,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.gstatic.com"> 
 		<link href="https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
     </head>
     <body>
         <header> 
@@ -40,10 +41,10 @@
         <p>
          <form name="Logowanie">
             <label> <span>Login:</span>
-             <input type="text" name="Login"> </br></label>
+             <input type="text" name="Username"> </br></label>
              <label><span>Hasło:</span>
              <input type="password" name="password"></br></label>
-            <label><input type="button" class="button" value="Zaloguj się"></label> 
+            <label><button type="button" class="button"  onclick="getInfo()">Zaloguj się</button></label> 
  
          </form>
          </p>
@@ -59,7 +60,7 @@
             <label><span>Nazwisko:</span>
              <input type="text" name="surname"> </br> </label>
             <label><span>Login:</span>
-             <input type="text" name="Login"> </br> </label>
+             <input type="text" name="Username"> </br> </label>
             <label><span>Hasło:</span>
              <input type="password" name="password"></br></label>
             <label><span>Powtórz hasło:</span>
